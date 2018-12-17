@@ -932,6 +932,23 @@ if ( ! class_exists( 'Astra_Dynamic_CSS' ) ) {
 
 			// Move all header-break-point css from class based css to media query based CSS.
 			$astra_break_point_navigation  = '@media (max-width:' . $header_break_point . 'px) {';
+			$astra_break_point_navigation .= '.ast-desktop .ast-mobile-menu-buttons {';
+			$astra_break_point_navigation .= 	'text-align : right';
+			$astra_break_point_navigation .= 	'-js-display : flex';
+			$astra_break_point_navigation .= 	'display : -webkit-box';
+			$astra_break_point_navigation .= 	'display : -webkit-flex';
+			$astra_break_point_navigation .= 	'display : -moz-box';
+			$astra_break_point_navigation .= 	'display : -ms-flexbox';
+			$astra_break_point_navigation .= 	'display : flex';
+			$astra_break_point_navigation .= 	'-webkit-box-pack : end';
+			$astra_break_point_navigation .= 	'-webkit-justify-content : flex-end';
+			$astra_break_point_navigation .= 	'-moz-box-pack : end';
+			$astra_break_point_navigation .= 	'-ms-flex-pack : end';
+			$astra_break_point_navigation .= 	'justify-content : flex-end';
+			$astra_break_point_navigation .= 	'-webkit-align-self : center';
+			$astra_break_point_navigation .= 	'-ms-flex-item-align : center';
+			$astra_break_point_navigation .= 	'align-self : center';
+			$astra_break_point_navigation .= '}';
 			$astra_break_point_navigation .= '.ast-desktop.ast-header-custom-item-outside .main-header-bar .ast-search-icon { ';
 			$astra_break_point_navigation .= 'margin-right: 1em; ';
 			$astra_break_point_navigation .= '} ';
