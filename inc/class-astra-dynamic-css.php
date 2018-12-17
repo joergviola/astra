@@ -1558,6 +1558,7 @@ if ( ! class_exists( 'Astra_Dynamic_CSS' ) ) {
 			$astra_break_point_navigation .= '      text-align: center; ';
 			$astra_break_point_navigation .= '      padding-bottom: 0; ';
 			$astra_break_point_navigation .= '  } ';
+			$astra_break_point_navigation .= '  } ';
 
 			$parse_css .= $astra_break_point_navigation;
 
