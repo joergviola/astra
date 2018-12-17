@@ -930,8 +930,7 @@ if ( ! class_exists( 'Astra_Dynamic_CSS' ) ) {
 			$astra_navigation .= '}';
 			$parse_css        .= $astra_navigation;
 
-			// Move all header-break-point css from class based css to media query based CSS
-
+			// Move all header-break-point css from class based css to media query based CSS.
 			$astra_break_point_navigation  = '@media (max-width:' . $header_break_point . 'px) {';
 			$astra_break_point_navigation .= '.ast-desktop.ast-header-custom-item-outside .main-header-bar .ast-search-icon { ';
 			$astra_break_point_navigation .= 'margin-right: 1em; ';
@@ -1559,8 +1558,8 @@ if ( ! class_exists( 'Astra_Dynamic_CSS' ) ) {
 			$astra_break_point_navigation .= '      text-align: center; ';
 			$astra_break_point_navigation .= '      padding-bottom: 0; ';
 			$astra_break_point_navigation .= '  } ';
-			
-			$parse_css        .= $astra_break_point_navigation;
+
+			$parse_css .= $astra_break_point_navigation;
 
 			/* Blog */
 			if ( 'custom' === $blog_width ) :
