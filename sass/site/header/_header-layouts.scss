@@ -145,94 +145,6 @@
 
 }
 
-.ast-header-break-point {
-	
-	.header-main-layout-1 {
-		.site-branding{
-			padding-right: 1em;
-		}
-		.main-header-bar-navigation {
-			text-align: left;
-		}
-		.main-navigation {
-			padding-left: 0;
-		}
-	}
-
-	.ast-mobile-header-stack{
-		.ast-masthead-custom-menu-items{
-			flex: 1 1 100%;
-		}	
-		.site-branding{
-			padding-left: 0;
-			padding-right: 0;
-			padding-bottom: 1em;
-			flex: 1 1 100%;
-		}
-
-		.ast-masthead-custom-menu-items,
-		.site-branding,
-		.site-title,
-		.ast-site-identity{
-			justify-content: center;
-			text-align: center;
-		}
-		&.ast-logo-title-inline {
-			.site-title {
-				text-align: left;
-			}
-		}
-		
-		.ast-mobile-menu-buttons{
-			flex: 1 1 100%;
-			text-align: center;
-			justify-content: center;
-		}
-		&.header-main-layout-3{
-			.main-header-container{
-				flex-direction: initial;
-			}
-		}
-	}
-
-	.header-main-layout-2 {
-		.ast-mobile-menu-buttons{
-			display: flex;
-			justify-content: center;
-		}
-	    .main-header-bar-navigation,
-	    .widget {
-			text-align: left;
-		}
-	}
-
-	&.ast-header-custom-item-outside .header-main-layout-3 .main-header-bar .ast-search-icon {
-	    margin-right: auto;
-	    margin-left: 1em;
-	}
-	.header-main-layout-3 {
-		.main-header-bar .ast-search-menu-icon.slide-search .search-form {
-		    right: auto;
-		    left: 0;
-		}
-		&.ast-mobile-header-inline{
-			.ast-mobile-menu-buttons {
-				justify-content: flex-start;
-			}
-		}
-		li .ast-search-menu-icon {
-			left: 0;
-		}
-		.site-branding{
-			padding-left: 1em;
-			justify-content: flex-end;
-		}
-		.main-navigation {
-			padding-right: 0;
-		}
-	}
-}
-
 /**
  * 4 - Header Inline Logo & Site Title 
 */
@@ -274,43 +186,6 @@
 			}
 		}
 	}
-
-	.ast-header-break-point{
-		.ast-mobile-header-stack {
-			.site-branding,
-			.ast-mobile-menu-buttons {
-				justify-content: center;
-				text-align: center;
-				padding-bottom: 0;
-			}
-		}
-	}
 }
 
-.ast-header-break-point{
-	
-	&.ast-header-custom-item-outside {
-		
-		.ast-mobile-header-inline {
-			.site-branding {
-				text-align: left;
-			}
-			.site-title {
-				justify-content: left;
-			}
-		}
 
-		.header-main-layout-2{
-			.ast-mobile-menu-buttons{
-				padding-bottom: 1em;
-			}
-		}
-	}
-
-	.ast-mobile-header-stack,
-	.ast-mobile-header-inline{
-		.main-header-container {
-			display: flex;
-		}
-	}
-}

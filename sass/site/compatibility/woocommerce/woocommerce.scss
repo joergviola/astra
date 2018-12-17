@@ -350,111 +350,6 @@ p.demo_store,
 }
 
 /**
- * Header Cart Icon with shopping cart for responsive devices.
- */
-.ast-header-break-point{
-	.woocommerce-custom-menu-item .ast-cart-menu-wrap {
-		width: 2em;
-	    height: 2em;
-	    font-size: 1.4em;
-	    line-height: 2;
-	    vertical-align: middle;
-	    text-align: right;
-	}
-	.ast-button-wrap .main-header-menu-toggle {
-	    font-size: 1.4em;
-	}
-
-	.main-header-menu .woocommerce-custom-menu-item .ast-cart-menu-wrap {
-	    height: 3em;
-	    line-height: 3;
-	    text-align: left;
-	}
-
-	#ast-site-header-cart .widget_shopping_cart {
-		display: none;
-	}
-
-	&.ast-woocommerce-cart-menu{
-
-		.ast-site-header-cart { 
-	        order: initial;
-			line-height: 3;
-			padding: 0 1em 1em 0;
-
-	    }
-
-	    .header-main-layout-3 {
-	    	.ast-site-header-cart{
-	        	padding: 0 0 1em 1em;
-	        }
-	    }
-
-	    &.ast-header-custom-item-outside {
-	    	.ast-site-header-cart{
-	        	padding: 0;
-	        }
-	    }
-
-
-    	@media (max-width: $mx-col-sm) {
-	     	.header-main-layout-1,
-	     	.header-main-layout-3 {
-	    	 	&.ast-mobile-header-stack{
-	    	 		&.ast-no-menu-items {
-	    	 			.ast-site-header-cart{
-	    	 				padding-right: 0;
-	    	 				padding-left: 0;
-	    	 			}
-	    	 		}
-	    	 		.main-header-bar{
-	    	 			text-align: center;
-	    	 		}
-	    	 		.ast-site-header-cart {
-	    	 			display: inline-block;
-	    	 		}
-	    	 		.ast-mobile-menu-buttons {
-	    	 			display: inline-block;
-	    	 		}
-    	 		}
-			}
-			.header-main-layout-2 {
-				&.ast-mobile-header-inline{
-					.site-branding{
-						flex: auto;
-					}
-				}
-			}
-			.header-main-layout-3{
-		 		&.ast-mobile-header-stack{
-		 			.site-branding {
-		 				flex: 0 0 100%;
-		 			}
-		 			.main-header-container {
-		 			    display: flex; 
-						justify-content: center;
-					}
-		 		}
-			}
-    	}
-	}
-
-	.ast-masthead-custom-menu-items.woocommerce-custom-menu-item {
-		margin-bottom: 0;
-		margin-top: 0;
-
-		.ast-site-header-cart {
-			padding: 0;
-
-			a {
-				border: none;
-				display: inline-block;
-			}
-		}
-	}
-}
-
-/**
  * Main WooCommerce styles
  */
 .woocommerce {
@@ -3980,16 +3875,6 @@ button.pswp__button--zoom:hover {
 				display: inline-block;
 				float: right;
 			}
-		}
-	}
-
-	&.ast-woocommerce-cart-menu {
-		&.ast-header-break-point {
-			.header-main-layout-2{
-				.main-header-container {
-		  			display: flex;
-		  		}
-		  	}
 		}
 	}
 }

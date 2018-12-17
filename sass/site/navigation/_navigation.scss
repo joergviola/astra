@@ -103,29 +103,6 @@
 	height: 100%;
 }
 
-/* Responsive Screen */
-.ast-header-break-point {
-
-	.user-select {
-		clear: both;
-	}
-
-	.ast-mobile-menu-buttons {
-		display: block;
-		align-self: center;
-	}
-
-	.main-header-bar-navigation {
-		flex: auto;
-	}
-	.ast-main-header-bar-alignment {
-		display: block;
-	    width: 100%;
-	    flex: auto;
-	    order: 4;
-	}
-}
-
 /**
  * Post/Page Navigation
  */
