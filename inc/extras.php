@@ -73,6 +73,8 @@ if ( ! function_exists( 'astra_body_classes' ) ) {
 			$classes[] = 'ast-desktop';
 		}
 
+		$classes[] = 'ast-theme';
+
 		// Apply separate container class to the body.
 		$content_layout = astra_get_content_layout();
 		if ( 'content-boxed-container' == $content_layout ) {
