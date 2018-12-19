@@ -1587,44 +1587,6 @@ if ( ! class_exists( 'Astra_Dynamic_CSS' ) ) {
 				'.ast-desktop .ast-mobile-header-stack .main-header-bar .ast-search-menu-icon.slide-search .search-form' => array(
 					'right' => '-1em',
 				),
-				'.ast-desktop .ast-mobile-header-stack .ast-mobile-menu-buttons' => array(
-					'width' => '100%',
-				),
-				'.ast-desktop .ast-mobile-header-stack .site-branding, .ast-desktop .ast-mobile-header-stack .ast-mobile-menu-buttons' => array(
-					'-webkit-box-pack'        => 'center',
-					'-webkit-justify-content' => 'center',
-					'-moz-box-pack'           => 'center',
-					'-ms-flex-pack'           => 'center',
-					'justify-content'         => 'center',
-				),
-				'.ast-desktop .ast-mobile-header-stack .main-header-bar-wrap .site-branding' => array(
-					'-webkit-box-flex' => '1',
-					'-webkit-flex'     => '1 1 auto',
-					'-moz-box-flex'    => '1',
-					'-ms-flex'         => '1 1 auto',
-					'-webkit-box-flex' => '1',
-					'-webkit-flex'     => '1 1 auto',
-					'-moz-box-flex'    => '1',
-					'-ms-flex'         => '1 1 auto',
-					'flex'             => '1 1 auto',
-				),
-				'.ast-desktop .ast-mobile-header-stack .ast-mobile-menu-buttons' => array(
-					'padding-top' => '0.8em',
-				),
-				'.ast-desktop .ast-mobile-header-stack.header-main-layout-2 .ast-mobile-menu-buttons' => array(
-					'padding-top' => '0.8em',
-				),
-				'.ast-desktop .ast-mobile-header-stack.header-main-layout-1 .site-branding' => array(
-					'padding-bottom' => '0',
-				),
-				'.ast-header-custom-item-outside.ast-desktop .ast-mobile-header-stack .ast-masthead-custom-menu-items' => array(
-					'padding'    => '0.8em 1em 0 1em',
-					'text-align' => 'center',
-					'width'      => '100%',
-				),
-				'.ast-header-custom-item-outside.ast-desktop .ast-mobile-header-stack.header-main-layout-3 .ast-mobile-menu-buttons, .ast-header-custom-item-outside.ast-desktop .ast-mobile-header-stack.header-main-layout-3 .ast-masthead-custom-menu-items' => array(
-					'padding-top' => '0.8em',
-				),
 				'.ast-desktop .ast-mobile-header-stack .site-branding, .ast-desktop .ast-mobile-header-stack .ast-mobile-menu-buttons' => array(
 					'-webkit-box-pack'        => 'center',
 					'-webkit-justify-content' => 'center',
@@ -1670,6 +1632,44 @@ if ( ! class_exists( 'Astra_Dynamic_CSS' ) ) {
 					'-moz-box-pack'           => 'center',
 					'-ms-flex-pack'           => 'center',
 					'justify-content'         => 'center',
+				),				
+				'.ast-desktop .ast-mobile-header-stack .ast-mobile-menu-buttons' => array(
+					'width' => '100%',
+				),
+				'.ast-desktop .ast-mobile-header-stack .site-branding, .ast-desktop .ast-mobile-header-stack .ast-mobile-menu-buttons' => array(
+					'-webkit-box-pack'        => 'center',
+					'-webkit-justify-content' => 'center',
+					'-moz-box-pack'           => 'center',
+					'-ms-flex-pack'           => 'center',
+					'justify-content'         => 'center',
+				),
+				'.ast-desktop .ast-mobile-header-stack .main-header-bar-wrap .site-branding' => array(
+					'-webkit-box-flex' => '1',
+					'-webkit-flex'     => '1 1 auto',
+					'-moz-box-flex'    => '1',
+					'-ms-flex'         => '1 1 auto',
+					'-webkit-box-flex' => '1',
+					'-webkit-flex'     => '1 1 auto',
+					'-moz-box-flex'    => '1',
+					'-ms-flex'         => '1 1 auto',
+					'flex'             => '1 1 auto',
+				),
+				'.ast-desktop .ast-mobile-header-stack .ast-mobile-menu-buttons' => array(
+					'padding-top' => '0.8em',
+				),
+				'.ast-desktop .ast-mobile-header-stack.header-main-layout-2 .ast-mobile-menu-buttons' => array(
+					'padding-top' => '0.8em',
+				),				
+				'.ast-desktop .ast-mobile-header-stack.header-main-layout-1 .site-branding' => array(
+					'padding-bottom' => '0',
+				),
+				'.ast-header-custom-item-outside.ast-desktop .ast-mobile-header-stack .ast-masthead-custom-menu-items' => array(
+					'padding'    => '0.8em 1em 0 1em',
+					'text-align' => 'center',
+					'width'      => '100%',
+				),
+				'.ast-header-custom-item-outside.ast-desktop .ast-mobile-header-stack.header-main-layout-3 .ast-mobile-menu-buttons, .ast-header-custom-item-outside.ast-desktop .ast-mobile-header-stack.header-main-layout-3 .ast-masthead-custom-menu-items' => array(
+					'padding-top' => '0.8em',
 				),
 				// 768px
 				'.ast-desktop .footer-sml-layout-2 .ast-small-footer-section-2' => array(

@@ -4599,6 +4599,10 @@ button.pswp__button--zoom:hover {
   float: right;
 }
 
+.ast-safari-browser-less-than-11.ast-woocommerce-cart-menu.ast-header-break-point .header-main-layout-2 .main-header-container {
+  display: flex;
+}
+
 /**
  * Woocommerce Pagination RTL
  */
