@@ -3877,6 +3877,16 @@ button.pswp__button--zoom:hover {
 			}
 		}
 	}
+
+	&.ast-woocommerce-cart-menu {
+		&.ast-header-break-point {
+			.header-main-layout-2{
+				.main-header-container {
+		  			display: flex;
+		  		}
+		  	}
+		}
+	}
 }
 /**
  * Woocommerce Pagination RTL
