@@ -1,33 +1,39 @@
 <?php
 
 
+// https://www.canva.com/learn/website-color-schemes/ #22
 
 $my_color_palette = array(
 	array(
-		'name'  => __( 'strong magenta', 'themeLangDomain' ),
-		'slug'  => 'strong-magenta',
-		'color' => '#5d001e',
+		'name'  => __( 'navy blue', 'themeLangDomain' ),
+		'slug'  => 'navy-blue',
+		'color' => '#0f1626',
 	),
 	array(
-		'name'  => __( 'light grayish magenta', 'themeLangDomain' ),
-		'slug'  => 'light-grayish-magenta',
-		'color' => '#e3e2df',
+		'name'  => __( 'leather', 'themeLangDomain' ),
+		'slug'  => 'leather',
+		'color' => '#ab987a',
 	),
 	array(
-		'name'  => __( 'very light gray', 'themeLangDomain' ),
-		'slug'  => 'very-light-gray',
-		'color' => '#e3afbc',
+		'name'  => __( 'coral', 'themeLangDomain' ),
+		'slug'  => 'coral',
+		'color' => '#ff533d',
 	),
 	array(
-		'name'  => __( 'very dark gray', 'themeLangDomain' ),
-		'slug'  => 'very-dark-gray',
-		'color' => '#9a1750',
+		'name'  => __( 'eggshell', 'themeLangDomain' ),
+		'slug'  => 'eggshell',
+		'color' => '#f5f5f5',
 	),
-	array(
-		'name'  => __( 'very dark gray', 'themeLangDomain' ),
-		'slug'  => 'very-dark-gray',
-		'color' => '#ee4c7c',
-	),
+//	array(
+//		'name'  => __( 'very dark gray', 'themeLangDomain' ),
+//		'slug'  => 'very-dark-gray',
+//		'color' => '#eeeeee',
+//	),
+//	array(
+//		'name'  => __( 'very dark gray', 'themeLangDomain' ),
+//		'slug'  => 'very-dark-gray',
+//		'color' => '#444444',
+//	),
 );
 
 add_theme_support( 'editor-color-palette', $my_color_palette );
